@@ -1,0 +1,135 @@
+html {
+    min-height: 100%;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    display: block;
+    margin-top: 185px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.button {
+    background-color: #f0f0f0;
+    color: #777777;
+    border: 1px solid #f0f0f0;
+    padding: 9px 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    margin-bottom: 12px;
+}
+
+.button:hover {
+    color: #333333;
+    border: 1px solid #333333;
+    box-sizing: border-box;
+}
+
+.search {
+    width: 40%;
+    border-style: solid;
+    border-color: #dddddd;
+    border-width: 0.5px;
+    box-shadow: 0, 0, 3px 3px 3px 3px gray, 0;
+    padding: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 13px;
+    color: #000000;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #000000;
+}
+
+.apps {
+    display: inline;
+    height: 20px;
+    width: 20px;
+    margin-top: 0;
+    float: right;
+    opacity: 0.5;
+}
+
+.apps:hover {
+    opacity: 1;
+}
+
+a.sign-in {
+    background-color: #348cdf;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    padding: 9px 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0;
+    font-size: 13px;
+}
+
+.sign-in:hover {
+    text-decoration: none;
+}
+
+.sign-in:active {
+    background-color: #2e7ec9;
+}
+
+ul {
+    display: inline; 
+}
+
+li {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    display: inline;
+    float: left;
+}
+
+.left-nav {
+    margin-top: 5px;
+    float: left;
+    display: inline-block;
+} 
+
+.right-nav {
+    margin-top: 5px;
+    float: right;
+    display: inline-block;
+}
+
+footer{
+    height: 50px;
+    position: relative;
+    top: 95px;
+    width: 100%;
+    background-color:#eeeeee;
+    border-top: 1.5px solid #dddddd;
+}
+
+footer a {
+    color: #777777;
+}
+
+footer a:visited {
+    color: #777777;
+}
